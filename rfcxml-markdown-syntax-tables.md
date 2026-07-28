@@ -2,7 +2,7 @@
 title: RFCXML and Markdown Syntax Comparison Tables
 description: The Rosetta Stone of RFCXML and Markdown
 published: true
-date: 2026-07-28T18:08:07.617Z
+date: 2026-07-28T19:10:53.992Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-23T11:54:17.943Z
@@ -515,23 +515,23 @@ using displayreference   </td><td class="col1 leftalign"><pre class="prismjs"><c
 &lt;displayreference target=“I-D.ietf-mpls-rmr” to “RMR”/&gt;</code></pre></td><td class="col2 leftalign">
 <pre class="prismjs"><code>RFC5234:
   display: ABNF
-</code><code>
+</code>
+<code>
 I-D.ietf-mpls-rmr:
   display: RMR</code></pre>
 <p>
- In the body, cite as: {{RFC5234}} and {{I-D.ietf-mpls-rmr}} 
+  In the body, cite as: <code>{{RFC5234}}</code> and <code>{{I-D.ietf-mpls-rmr}}</code> 
 </p>
 </td>
 	</tr>
 	<tr class="row5">
 		<td class="col0 leftalign"> A symbolic name<br/>
-without displayreference  </td><td class="col1 leftalign"> <pre class="code">&lt;reference anchor=&quot;ABNF&quot;&gt;
+without displayreference  </td><td class="col1 leftalign"> <pre class="prismjs"><code>&lt;reference anchor=&quot;ABNF&quot;&gt;
    &lt;title&gt;Augmented BNF for Syntax Specifications: ABNF&lt;/title&gt;
-   [...the rest of the RFC5234 ref from the citation library]</pre>
-</td><td class="col2 leftalign"> <pre class="code">ABNF: RFC5234</pre>
-
+   [the rest of the RFC5234 ref from bib.ietf.org]</code></pre>
+    </td><td class="col2 leftalign"> <pre class="prismjs"><code>ABNF: RFC5234</code></pre>
 <p>
- In the body, cite as: {{ABNF}}<br/>
+  In the body, cite as: <code>{{ABNF}}</code><br/>
 Note: <code>v: 3</code> must be in the YAML header for this to work.   
 </p>
 </td>
