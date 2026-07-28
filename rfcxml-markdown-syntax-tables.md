@@ -2,7 +2,7 @@
 title: RFCXML and Markdown Syntax Comparison Tables
 description: The Rosetta Stone of RFCXML and Markdown
 published: true
-date: 2026-07-24T10:14:22.746Z
+date: 2026-07-28T18:05:53.512Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-23T11:54:17.943Z
@@ -511,13 +511,13 @@ public/rfc/bibxml3/reference.I-D.ietf-mpls-rmr.xml&quot;/&gt;</pre>
 	</tr>
 	<tr class="row4">
 		<td class="col0 leftalign"> A symbolic name<br/>
-using displayreference   </td><td class="col1 leftalign"> &lt;displayreference target=“RFC5234” to=“ABNF”/&gt;<br/>
-&lt;displayreference target=“I-D.ietf-mpls-rmr” to “RMR”/&gt;   </td><td class="col2 leftalign"> <pre class="code">RFC5234:
+using displayreference   </td><td class="col1 leftalign"><pre class="prismjs"><code>&lt;displayreference target=“RFC5234” to=“ABNF”/&gt;
+&lt;displayreference target=“I-D.ietf-mpls-rmr” to “RMR”/&gt;</code></pre></td><td class="col2 leftalign">
+<pre class="prismjs"><code>RFC5234:
   display: ABNF
    
 I-D.ietf-mpls-rmr:
-  display: RMR</pre>
-
+  display: RMR</code></pre>
 <p>
  In the body, cite as: {{RFC5234}} and {{I-D.ietf-mpls-rmr}} 
 </p>
