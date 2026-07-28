@@ -2,7 +2,7 @@
 title: RFCXML and Markdown Syntax Comparison Tables
 description: The Rosetta Stone of RFCXML and Markdown
 published: true
-date: 2026-07-28T18:05:53.512Z
+date: 2026-07-28T18:08:07.617Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-23T11:54:17.943Z
@@ -515,7 +515,7 @@ using displayreference   </td><td class="col1 leftalign"><pre class="prismjs"><c
 &lt;displayreference target=“I-D.ietf-mpls-rmr” to “RMR”/&gt;</code></pre></td><td class="col2 leftalign">
 <pre class="prismjs"><code>RFC5234:
   display: ABNF
-   
+</code><code>
 I-D.ietf-mpls-rmr:
   display: RMR</code></pre>
 <p>
