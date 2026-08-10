@@ -34,7 +34,7 @@ The tools generally provide one of more of the following broad operations:
 -  Supports an interactive **Editor** with features such as auto-completion.
 
 ## Supported formats
-The formats that we are aware of tools supporting include: AsciiDoc, DOCX, EPUB, LaTeX, Markdown, nroff, Org Mode, PDF, plaintext, RFCXML, as well as the formal languages of ABNF, MIB, YANG and SVG.
+The formats that we are aware of tools supporting include: AsciiDoc, DOCX, LaTeX, Markdown, nroff, Org Mode, PDF, plaintext, RFCXML, as well as the formal languages of ABNF, MIB, YANG and SVG.
 
 Some tools only support the previous version of RFCXML (v2) and the format is written as RFCXML(old) in the table where that occurs, as well as "No" in the "Supports v3" column.
 
@@ -87,7 +87,7 @@ Some tools only support the previous version of RFCXML (v2) and the format is wr
 | [**rfclint**](https://github.com/ietf-tools/RfcEditor/tree/master/rfclint) | Build, CLI | Validate | RFCXML | RFCXML | Yes |
 | [**rfcstrip**](https://github.com/mbj4668/rfcstrip) | CLI | Extract | plaintext, RFCXML | YANG, SMIv2, plaintext | Yes |
 | [**svgcheck**](https://github.com/ietf-tools/RfcEditor/tree/master/svgcheck) | Build, CLI, Web | Validate, Convert | SVG | SVG | Yes |
-| [**xml2rfc**](https://github.com/ietf-tools/xml2rfc) | Build, CLI, Web | Validate, Convert | RFCXML, RFCXML(old), plaintext | RFCXML Plain text, PDF, HTML, HTMLised, EPUB, nroff | Yes |
+| [**xml2rfc**](https://github.com/ietf-tools/xml2rfc) | Build, CLI, Web | Validate, Convert | RFCXML, RFCXML(old), plaintext | RFCXML Plain text, PDF, HTML | Yes |
 | [**xml2rfc-xxe**](https://github.com/wkumari/xml2rfc-xxe) | Editor | Validate, Insert | RFCXML(old) | RFCXML(old) | No |
 | [**xym**](https://github.com/xym-tool/xym) | Build, CLI | Extract | RFCXML | YANG | Yes |
 | [**YANG validator**](https://github.com/YangCatalog/bottle-yang-extractor-validator) | Web | RFCXML | YANG | Yes |
